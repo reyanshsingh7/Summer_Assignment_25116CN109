@@ -10,15 +10,15 @@ int main() {
     scanf("%d",  &n);
     
     //Take array elements as input from user
-    printf("Enter %d elements:\n ");
+    printf("Enter %d elements:\n ", n);
     for (i = 0; i < n; i++) {
-        scanf("%d", arr[i]);
+        scanf("%d", &arr[i]);
     }
 
     //Display array elements
     printf("\nArray elements: ");
     for (i = 0; i < n; i++) {
-        printf("%d", arr[i]);
+        printf("%d ", arr[i]);
     }
     printf("\n");
 
